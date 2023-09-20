@@ -86,7 +86,12 @@
             <artifactId>springrestdoc</artifactId>
             <version>0.1.0</version>
         </dependency>
-        <dependency>
+		<!-- Dependência do Banco de dados PostgreSQL -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
+		<dependency>
             <groupId>nl.tritales.springrestdoc</groupId>
             <artifactId>springrestdoc</artifactId>
             <version>0.1.0</version>
